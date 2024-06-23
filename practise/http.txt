@@ -4,7 +4,7 @@ HTTP1.1 VS HTTP2
 * HTTP is the method computers and servers use to request and send information
 
 
-HTTP1.1
+Hgit TTP1.1
 
 The first usable version of HTTP was created in 1997   
 This version is still in use on the web
@@ -25,18 +25,3 @@ HTTP/2 is able to use a single TCP connection to send multiple streams of data a
 
 
 
-*****OBJECT*****************
-
-In JavaScript, almost everything is an object. Objects are collections of key-value pairs, where each key is a string (or a Symbol) and each value can be any data type. Let me break it down for you:
-
-Object Creation:
-                You can create objects using literals (object initializer) or constructors.
-Literals:       
-                Define an object directly with curly braces {} and specify its properties and values.
-Constructors:
-                Use the Object() constructor to create an object.
-Properties:
-                Each object internally consists of properties.
-                Properties have a key (or name) and a value.
-Properties can be:
-                Data properties: Contain a direct value.
