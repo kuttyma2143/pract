@@ -1,0 +1,258 @@
+// IIFE FUNCTION PROGRAM
+
+// FIND ODD number
+
+
+(function() {
+   
+   
+    var n=[1,2,3,4,5,6]
+   var n1=[]
+   
+   
+      for(i=0;i<n.length;i++)
+      {
+      
+      if(n[i]%2!=0)
+      {
+        n1.push(n[i])
+      }
+      }
+      console.log(n1);
+  })();
+
+  
+
+
+//  CONVERT ALL STRING TO TITLE CAPS IN A STRING ARRAY
+
+
+(function() {
+   
+   
+    var s=["hi","hello","welcome"]
+    var n1=[]
+   
+   
+      for(i=0;i<s.length;i++)
+      {
+      n1.push(s[i].toUpperCase())
+      }
+      
+      console.log(n1);
+  })();
+
+
+  //  SUM OF ALL NUMBERS IN A ARRAY
+
+
+  (function() {
+   
+   
+    var n=[2,3,6,8,9,7]
+    var n1=0
+   
+   
+      for(i=0;i<n.length;i++)
+      {
+      n1=n1+n[i]
+      }
+      
+      console.log(n1);
+  })();
+
+
+
+
+  //RETURN ALL THE PRIME NUMBER
+
+  (function() {
+   
+   
+    var n=[1,2,3,5,4,15,6]
+    var n1=[]
+   
+   
+    for(i=0;i<n.length;i++)
+    {
+          
+    if(n[i]>1)
+    {
+      if((n[i]===2) || (n[i]===5))
+      {
+        n1.push(n[i])
+      }
+      
+      
+      if(n[i]%2!=0)
+      {
+          if(n[i]%5!=0)
+           {
+             n1.push(n[i])
+           }
+      }
+      }
+      }      
+      console.log(n1);
+  })();
+
+
+
+  // RETURN ALL PALINDROMES IN A ARRAY
+
+
+  (function() {
+   
+   
+    var n=[13,15,18,22,88,45,42,51,6]
+    var n1=[]
+    var d=[]
+   
+    for(i=0;i<n.length;i++)
+    {
+    var m=n[i].toString()
+        m=m.split("")
+    var c=m.reverse()
+        c=c.join("")
+        
+     d.push(c)   
+    }    
+        
+        
+     
+        
+    {
+        for(k=0;k<n.length;k++)
+        {
+      
+          for(j=0;j<n.length;j++)
+           { 
+            if(Number(n[k])===Number(d[j]))
+              {
+
+                if((n[k]>11) && (n[k]<99))
+                {
+                  if(n[k]%11!=0)   
+                     {
+                      n1.push(n[k])
+                     }
+                }
+              else if(n[k]>99)
+                {
+                n1.push(n[k])
+                }}
+     
+              }
+      
+           } 
+        }  
+    
+    
+    
+    console.log(n1);
+  })();
+
+  
+
+
+  //RETURN MEDIAN OF TWO SORTED ARRAYS OF THE SAME SIZE
+
+
+  (function() {
+   
+   
+    const n=[13,15,18,81,31,51]
+    
+    const n1=[57,91,12,98,19,21]
+    
+    const c = (n.concat(n1)).sort()
+    
+    const s=c.length
+    
+    var h = 0
+    
+    const m=Math.floor(s/2)
+    
+    if(s%2===0)
+    {
+     h = (c[m-1] + c[m]) / 2;
+    } 
+    
+   /* else 
+    {
+    h = c[Math.floor(s / 2)];
+
+    }
+    */
+    console.log(h);
+  })();
+
+
+// REMOVE THE DUPLICATES FROM AN ARRAY
+
+
+(function() {
+   
+   
+  const n=[13,15,18,13,81,31,18,51]
+  var u = []
+  
+  
+  u=n.filter((item,index) => n.indexOf(item) === index);
+
+  console.log(u);
+})();
+
+
+
+// rotate an array by k times
+
+
+(function() {
+   
+   
+  const n=[13,15,18,13,81,31,18,51]
+  const k=5
+ 
+    for(i=0;i<k;i++) 
+    {
+      n.shift(n[i])
+      n.push(n[i])
+      
+    }
+
+  console.log(n);
+})();
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
