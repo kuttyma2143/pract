@@ -1,0 +1,50 @@
+Document Object:
+The document object represents a web page that is loaded in the browser. 
+By accessing the document object, we can access the element in the HTML page. 
+With the help of document objects, we can add dynamic content to our web page. 
+The document object can be accessed with a window.document or just document.
+
+
+
+Properties of document:
+
+activeElement: 
+              It returns the currently active elements in the document.
+body: 
+              It returns the contents of the body element.
+anchors:  
+              It returns all <a> elements that have a name attribute.
+baseURI: 
+              It returns a string value that represents the base URI of the document.
+cookie: 
+              It returns the cookie of the current document.
+charSet: 
+              It returns a string, representing the document’s character encoding.
+defaultView: 
+              It returns the current Window Object.
+designMode: 
+              It is used to set documents as editable or read-only.
+domain: 
+              It returns the domain name of the document server.
+doctype:
+              It returns the document’s doctype.
+embeds: 
+              It returns the collection of all embedded elements.
+URL: 
+              It returns the complete URL of the document.
+forms: 
+              It returns all the elements of the form.
+fullScreenElement: 
+              It returns the element that is currently present in full-screen mode.
+title: 
+              It returns the title element of the document.
+head: 
+              It returns the head element of the document.
+links: 
+              It returns all <area> and <a> elements that have a href attribute.
+lastModified: 
+              It returns the date and time of the current document that was last modified.
+images: 
+              It returns the collection of <img> elements in the document.
+implementation: 
+              It returns the DOMImplementation object associated with the current document.
