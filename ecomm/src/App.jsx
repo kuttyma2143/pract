@@ -32,7 +32,7 @@ import Billboard from "./components/billboard.jsx";
   }
   function handleRemoveFromCart(data = {}) {
     let cartCopy = [...cart];
-    cartCopy.pop(data);
+    cartCopy = cartCopy.filter((cartItem) => cartItem.id !== data.id);
     setCart(cartCopy);
 
   }
